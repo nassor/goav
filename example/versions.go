@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/giorgisio/goav/avcodec"
-	"github.com/giorgisio/goav/avdevice"
-	"github.com/giorgisio/goav/avfilter"
-	"github.com/giorgisio/goav/avformat"
-	"github.com/giorgisio/goav/avutil"
-	"github.com/giorgisio/goav/swresample"
-	"github.com/giorgisio/goav/swscale"
+	"github.com/nassor/goav/avcodec"
+	"github.com/nassor/goav/avdevice"
+	"github.com/nassor/goav/avfilter"
+	"github.com/nassor/goav/avformat"
+	"github.com/nassor/goav/avutil"
+	"github.com/nassor/goav/swresample"
+	"github.com/nassor/goav/swscale"
 	"log"
 )
 

@@ -7,8 +7,9 @@ package avformat
 //#include <libavformat/avformat.h>
 import "C"
 import (
-	"github.com/giorgisio/goav/avcodec"
 	"unsafe"
+
+	"github.com/nassor/goav/avcodec"
 )
 
 func (s *Context) AvFormatGetProbeScore() int {
